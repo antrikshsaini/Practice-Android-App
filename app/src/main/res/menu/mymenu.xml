@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="About"
+        android:id="@+id/about"
+        app:showAsAction="always"
+        android:icon="@mipmap/ic_launcher">
+
+
+    </item>
+    <item android:title="Setting"
+        android:id="@+id/setting"
+        app:showAsAction="ifRoom"
+        ></item>
+
+    <item android:title="Help"
+        android:id="@+id/help"
+        app:showAsAction="ifRoom"
+        ></item>
+
+    <item android:title="Source"
+        android:id="@+id/source"
+        ></item>
+    <item android:title="Successfull"
+        android:id="@+id/successfull"
+        ></item>
+
+
+
+</menu>
